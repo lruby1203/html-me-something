@@ -3,17 +3,28 @@ body {
     background-color: #99ffff;
     font-family:Verdana;
 }
-div {
+
+header {
+        text-align: center;
+        font-size: .75rem;
+}
+
+main {
     text-align: center;
-    margin-bottom: 6em;
+    margin-bottom: 6rem;
+}
+
+article {
+    text-align: center;
+    margin-bottom: 6rem;
 
 }
 
 img {
     display: block;
     margin: auto;
-    height: 300px;
-    width: 300px;
+    height: 24rem;
+    width: 18rem;
 }
 
 a {
@@ -23,4 +34,24 @@ a {
 a:hover {
     text-decoration: underline;
     color: blue;
+}
+
+footer {
+    text-align: center;
+    font-size: .75em;
+}
+.meet_kids {
+    color: #000099;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#tribe {
+    height: 30rem;
+    width: 40rem;
+}
+
+#kids {
+    height: 18rem;
+    width: 24rem;
 }
